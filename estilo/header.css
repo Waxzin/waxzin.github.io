@@ -1,4 +1,4 @@
-  .header{
+.header{
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
@@ -47,7 +47,15 @@
         padding: 20px;
     }
     .header a {
+        padding: 16px;
         background:#A78AFB;
         border-radius: 5px;
+    }
+
+    .header-menu a:hover {
+      background: #635295;
+  }
+    .header-menu a::after{
+      display: none;
     }
  }
