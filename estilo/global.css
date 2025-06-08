@@ -4,6 +4,15 @@ body{
     color: #141414;
 }
 
+.container{
+    box-sizing: border-box;
+    max-width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h2, h3, p{
     margin: 0px;
 
@@ -14,7 +23,6 @@ a{
 }
 
 ul{
-    margin: 0px;
     padding: 0px;
     list-style: none;
 }
