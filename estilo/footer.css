@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.footer-texto::before{
+.footer-texto::before,.footer-contato::before{
     content: '';
     display: block;
     width: 4px;
@@ -32,16 +32,6 @@
     left: -4px;
 }
 
-.footer-contato::before{
-    content: '';
-    display: block;
-    width: 4px;
-    height: 20px;
-    background: linear-gradient(#A78AFB,#635295);
-    position: absolute;
-    top: 20px;
-    left: -4px;
-}
 
 .footer-container li{
     font-weight: bold;
@@ -67,7 +57,7 @@
     position: relative;
 }
 
-.footer-cop{
+.footer-copy{
     grid-column: 1 / -1;
     font-size: 1.125rem;
     color: #6D697E;
