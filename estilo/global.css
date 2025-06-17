@@ -15,8 +15,40 @@ body{
 
 h1, h2, h3, p{
     margin: 0px;
-
 }
+
+
+.button{
+    border-radius: 4px;
+    background-color: #A78AFB;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
 
 a{
     text-decoration: none;
@@ -40,7 +72,6 @@ img{
     text-transform:uppercase;
     word-break: break-all;
     max-width: 5ch;
- 
 }
 
 
